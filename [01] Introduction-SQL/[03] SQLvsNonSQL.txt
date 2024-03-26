@@ -1,0 +1,27 @@
+Perbandingan antara SQL dan NoSQL:
+
+**Database SQL (Structured Query Language):**
+
+Kelebihan:
+1. Skema yang telah ditentukan sebelumnya, cocok untuk aplikasi dengan struktur tetap.
+2. Transaksi ACID memastikan konsistensi dan keandalan data.
+3. Mendukung kueri kompleks untuk hubungan data dan operasi agregasi.
+4. Skalabilitas dengan penskalaan vertikal (menambah sumber daya ke server).
+
+Keterbatasan:
+1. Skema yang kaku menyebabkan pembaruan struktur data memakan waktu.
+2. Kesulitan dalam penskalaan horizontal dan pembagian data di beberapa server.
+3. Tidak cocok untuk data hierarki, membutuhkan banyak tabel dan GABUNG untuk model struktur mirip pohon.
+
+**Database NoSQL (Tidak hanya SQL):**
+
+Kelebihan:
+1. Skema fleksibel, mudah beradaptasi terhadap perubahan tanpa mengganggu aplikasi.
+2. Skalabilitas horizontal dengan mempartisi data di beberapa server (sharding).
+3. Cepat dalam membaca dan menulis, seringkali dengan bahasa kueri yang lebih sederhana.
+4. Cocok untuk mengelola data besar dan aplikasi real-time.
+5. Dukungan untuk berbagai struktur data, seperti penyimpanan dokumen, grafik, atau nilai kunci.
+
+Keterbatasan:
+1. Kemampuan kueri terbatas dalam beberapa database NoSQL.
+2. Konsistensi yang lebih lemah, karena banyak database NoSQL mengikuti properti BASE yang memberikan jaminan konsistensi yang lebih lemah dibandingkan dengan ACID.

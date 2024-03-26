@@ -1,0 +1,19 @@
+Penyimpanan data secara terstruktur dalam RDBMS memanfaatkan tabel dengan baris dan kolom, memudahkan manipulasi data melalui SQL (Structured Query Language), sehingga memastikan efisiensi dan fleksibilitas penggunaannya.
+
+Properti ACID, yang meliputi Atomicity, Consistency, Isolation, dan Durability, memberikan keandalan dan keamanan dalam manipulasi data dalam RDBMS, menjadikannya pilihan yang tepat untuk aplikasi kritis.
+
+Normalisasi data, yang didukung oleh RDBMS, merupakan proses pengaturan data untuk mengurangi redundansi dan meningkatkan integritas data.
+
+RDBMS umumnya menawarkan opsi skalabilitas yang baik, memungkinkan penambahan penyimpanan atau sumber daya komputasi seiring bertambahnya data dan beban kerja.
+
+Melalui mekanisme seperti batasan, kunci utama, dan kunci asing, RDBMS menegakkan integritas dan konsistensi data, menjaga keakuratan dan keandalan data.
+
+RDBMS menyediakan fitur keamanan seperti otentikasi pengguna, kontrol akses, dan enkripsi data untuk melindungi data sensitif.
+
+Namun, penggunaan RDBMS memiliki beberapa batasan, seperti kompleksitas dalam penyiapan dan pengelolaannya, serta biaya yang tinggi baik dari segi lisensi maupun sumber daya komputasi dan penyimpanan.
+
+RDBMS juga memperlihatkan skema data yang kaku, yang membuat perubahan pada skema menjadi rumit dan memakan waktu.
+
+Selain itu, RDBMS tidak ideal untuk menangani data tidak terstruktur seperti file multimedia atau data sensor karena struktur relasionalnya dioptimalkan untuk data terstruktur.
+
+Penskalaan horizontal, yang diperlukan untuk meningkatkan kapasitas, menjadi tantangan dalam hal biaya dan kompleksitas, tidak semudah pada database NoSQL.

@@ -1,0 +1,10 @@
+SQL, yang disingkat dari Structured Query Language, adalah sebuah bahasa pemrograman yang digunakan untuk komunikasi dan pengelolaan database. Ini merupakan bahasa standar untuk memanipulasi data yang disimpan dalam sistem manajemen basis data relasional (RDBMS), atau untuk pemrosesan aliran dalam sistem manajemen aliran data relasional (RDSMS). Awalnya dikembangkan oleh IBM pada tahun 1970-an.
+
+SQL terdiri dari beberapa komponen dengan tujuan unik dalam komunikasi database:
+
+1. Kueri: Komponen ini memungkinkan pengguna untuk mengambil data dari database. Pernyataan SELECT adalah yang paling umum digunakan untuk tujuan ini.
+2. Bahasa Definisi Data (DDL): DDL memungkinkan pembuatan, modifikasi, atau penghapusan database dan objek terkaitnya seperti tabel, tampilan, dll. Perintah yang termasuk di dalamnya adalah CREATE, ALTER, DROP, dan TRUNCATE.
+3. Bahasa Manipulasi Data (DML): DML memungkinkan pengelolaan data dalam objek database. Perintah-perintah ini termasuk SELECT, INSERT, UPDATE, dan DELETE.
+4. Bahasa Kontrol Data (DCL): DCL mencakup perintah seperti GRANT dan REVOKE, yang berkaitan dengan hak akses, izin, dan tugas manajemen tingkat kontrol lainnya untuk sistem database.
+
+Database SQL hadir dalam berbagai bentuk, seperti Oracle Database, Microsoft SQL Server, dan MySQL. Meskipun terdapat variasi antara berbagai implementasi, semua database SQL menggunakan perintah bahasa yang sama yaitu SQL.
